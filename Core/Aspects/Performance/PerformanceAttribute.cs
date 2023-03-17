@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Core.Dependencies;
+
+namespace Core.Aspects.Performance
+{
+    public class PerformanceAttribute : AttributeBase
+    {
+        public int Interval { get; set; }
+    }
+}
